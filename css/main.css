@@ -1,4 +1,27 @@
-*{
-    font-family: 'Courier New', Courier, monospace;
-    width: 0in
+.alfa{
+    background-color: aqua;
+}
+
+.beta{
+    background-color: red;
+}
+
+.col{
+    background-color: violet;
+    border: 1px solid black;
+}
+
+.sidebar{
+    background-color: #f0f2f7;
+}
+
+.main{
+    background-color: #7689a2;
+}
+
+.child{
+    background-color: yellowgreen;
+    margin: 10px 0px;
+    border: 2px solid black;
+    width: 270px;
 }
