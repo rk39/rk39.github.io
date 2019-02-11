@@ -12,7 +12,7 @@
 }
 
 .sidebar{
-    background-color: #f0f2f7;
+    background-color: aquamarine;
 }
 
 .main{
@@ -34,4 +34,8 @@
     width: 100%;
     background-color: #ccc;
     height: 300px;
+}
+
+.tech-ul{
+    display: none;
 }
