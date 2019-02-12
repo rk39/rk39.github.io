@@ -36,6 +36,4 @@
     height: 300px;
 }
 
-.tech-ul{
-    display: none;
-}
+.tech-li, .tech-li-2, .tech-li-3{display: none;}
