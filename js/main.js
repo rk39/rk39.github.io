@@ -1,5 +1,11 @@
-$('.drop-3').on('click', function () {
-    $('tech-ul').css('color', 'red');
-});
+$(".drop-3").css({cursor: "pointer"}).on('click', function(){
+    $(".tech-li").toggle();
+} )
 
-$('.select-ul').css('color', 'red');
+$(".drop-4").css({cursor: "pointer"}).on('click', function(){
+    $(".tech-li-2").toggle();
+} )
+
+$(".drop-5").css({cursor: "pointer"}).on('click', function(){
+    $(".tech-li-3").toggle();
+} )
