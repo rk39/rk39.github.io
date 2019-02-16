@@ -1,0 +1,14 @@
+@font-face{
+    font-family: 'monsereg';
+    src: url('/fonts/montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'monsebold';
+    src: url('/fonts/montserrat/Montserrat-Bold.ttf');
+}
+
+@font-face{
+    font-family: 'pfditalic';
+    src: url('/fonts/playfairdisplay/PlayfairDisplay-Italic.ttf');
+}

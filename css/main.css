@@ -1,3 +1,7 @@
+*{
+    font-family: 'play' !important;
+}
+
 .header{
     width: 85%;
     margin-left: auto;
@@ -7,6 +11,11 @@
 
 .title{
     background-color: red;
+}
+
+.tt{
+    font-family: 'monsereg' !important;
+    font-size: 30px;
 }
 
 .header-menu{
