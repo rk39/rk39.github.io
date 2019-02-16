@@ -1,11 +1,11 @@
-$(".drop-3").css({cursor: "pointer"}).on('click', function(){
-    $(".tech-li").toggle();
-} )
+$('.drop-4').click(function(){ 
+    $('.tech-ul-2').toggleClass('hide');
+});
 
-$(".drop-4").css({cursor: "pointer"}).on('click', function(){
-    $(".tech-li-2").toggle();
-} )
+$('.drop-3').click(function(){ 
+    $('.tech-ul').toggleClass('hide');
+});
 
-$(".drop-5").css({cursor: "pointer"}).on('click', function(){
-    $(".tech-li-3").toggle();
-} )
+$('.drop-5').click(function(){ 
+    $('.tech-ul-3').toggleClass('hide');
+});
