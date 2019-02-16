@@ -1,45 +1,45 @@
-.alfa{
-    background-color: aqua;
+.header{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.beta{
+
+.title{
     background-color: red;
 }
 
-.col{
+.header-menu{
+    background-color: blue;
+}
+
+.user-area{
     background-color: violet;
-    border: 1px solid black;
 }
 
-.sidebar{
-    background-color: aquamarine;
-}
-
-.main{
-    background-color: #7689a2;
-}
-
-.child{
-    background-color: yellowgreen;
-    border: 0.5px solid red;
-}
-
-.item{
-    width: 270px;
-    background-color: #cccccc;
-    height: 300px;
-}
-
-.item-promote{
-    width: 100%;
-    background-color: #ccc;
-    height: 300px;
-}
-
-.tech-ul-2, .tech-ul, .tech-ul-3{
+.hamburger{
     display: none;
 }
 
-.hide{
-    display: block;
+
+@media only screen and (max-width: 992px){
+    .header-menu{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+        background-color: aqua;
+    }
+
+    .header{
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 576px){
+
+    .user-area{
+        display: none;
+    }
 }
