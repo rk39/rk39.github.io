@@ -9,6 +9,7 @@
 }
 
 @font-face{
-    font-family: 'pfditalic';
-    src: url('/fonts/playfairdisplay/PlayfairDisplay-Italic.ttf');
+    font-family: 'dance';
+    font-weight: 600;
+    src: url('/fonts/dancing-script/DancingScript-Regular.ttf');
 }

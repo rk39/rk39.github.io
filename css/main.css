@@ -1,0 +1,131 @@
+body{
+    font-family: 'monsereg';
+    font-weight: 600;
+}
+
+.heading{
+    width: 100%;
+}
+
+.main-menu, .added-menu{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+}
+
+.fa-bars{
+    display: none;
+}
+
+.title{
+    font-family: 'dance';
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+.main-ul{
+    list-style-type: none;
+    display: flex;
+    font-family: 'monsereg';
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.main-li{
+    padding: 0px 13px;
+}
+
+.main-a{
+    text-decoration: none;
+    color: black;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+}
+
+.area-cart{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.fa-shopping-cart{
+    font-size: 20px;
+}
+
+.cart-p{
+    font-size: 11px;
+    font-family: 'monsereg';
+    padding: 0px 8px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.quantity{
+    background-color: #e3e8f0;
+    border-radius: 12px;
+    padding: 4px 8px;
+}
+
+.sign-in{
+    text-transform: uppercase;
+    font-family: 'monsereg';
+    font-weight: 600;
+    font-size: 11px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #e3e8f0;
+    border-radius: 14px;
+    padding: 8px 10px;
+    letter-spacing: 1px;
+    margin-left: 30px;
+}
+
+
+
+@media only screen and (max-width: 992px){
+
+    .main-menu{
+        display: flex;
+    }
+
+    .fa-bars{
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .main-ul{
+        display: none;
+    }
+
+    .account-icon{
+        content: '\f007';
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+
+}
+
+@media only screen and (max-width: 576px){
+
+}
+
+@media only screen and (max-width: 382px){
+
+}
