@@ -1,0 +1,1 @@
+for (var index = 0; index < masivi.length; index++)
