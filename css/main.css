@@ -15,8 +15,11 @@
     background-color: white;
 }
 
-.title{
-    background-color: blueviolet;
+.h1{
+    text-decoration: none;
+    font-family: 'dance';
+    font-size: 30px;
+    color: black;
 }
 
 .nav-menu{
@@ -37,15 +40,5 @@
 
 @media only screen and (max-width: 575px){
 
-    .title{
-        order: 2 !important;
-    }
-
-    .nav-menu{
-        order: 1 !important;
-    }
-
-    .user-area{
-        order: 3 !important;
-    }
+    
 }
