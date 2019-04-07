@@ -1,12 +1,9 @@
-var masivi = [4,5,2,8,1,0,7]
+var arr = [2, 0,];
 
-for ( var i = 1; i < masivi.length; i++){
+// reverser = (erti, ori) => erti + ori;
 
-    function saxeli () {
-        var k = i;
-        setTimeout(() => {
-            console.log(k);
-        }, k * 500);
-    };
-    saxeli();
+function reverser (erti, ori, sami) {
+    return erti + ori - sami;
 }
+
+console.log(arr.reduce(reverser));
