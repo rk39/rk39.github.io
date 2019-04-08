@@ -109,7 +109,6 @@ body{
 
 .sales-part{
     width: 90%;
-    margin: 30px auto;
     background-color: white
 }
 
@@ -140,7 +139,37 @@ body{
     color: black;
 }
 
-.supp-search{
+.sales-part-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-for{
+    border: 1px solid #aaa;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="search"]{
+    padding: 20px 0px;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    outline: 0;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input[type="search"]::placeholder{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
 }
 
 /* media queries */
