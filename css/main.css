@@ -1,5 +1,9 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .heading{
-    width: 95%;
+    width: 90%;
     margin: 30px auto;
     background-color: white
 }
@@ -101,9 +105,53 @@
     margin-left: 10px;
 }
 
+/* sales 2nd navmenu */
+
+.sales-part{
+    width: 90%;
+    margin: 30px auto;
+    background-color: white
+}
+
+.sales-nav{
+    
+}
+
+.sales-list-li{
+    margin-right: 30px;
+}
+
+.sales-list-a{
+    text-decoration: none;
+    color: #777;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.sales-list-a:hover{
+    color: black;
+}
+
+.show-child{
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.supp-search{
+}
+
+/* media queries */
+
 @media only screen and (max-width: 991px){
 
     .heading{
+        width: 100%;
+    }
+
+    .sales-part{
         width: 100%;
     }
 
