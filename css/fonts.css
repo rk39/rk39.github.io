@@ -9,6 +9,11 @@
 }
 
 @font-face{
+    font-family: 'monblack';
+    src: url('/fonts/montserrat/Montserrat-Black.ttf');
+}
+
+@font-face{
     src: url('/fonts/dancing-script/DancingScript-Regular.ttf');
     font-family: 'dance';
 }
