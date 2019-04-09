@@ -216,14 +216,24 @@ input[type="search"]::placeholder{
     }
 
     .search-for{
-        width: 100%;
-        border: none;
-        margin-left: auto;
-        margin-right: auto;
+        width: 100% !important;
+        border: 1px solid #777;
+        margin: 0 !important;
+        padding: 0 !important;
     }
-
+    
     input[type="search"]{
+        width: 85%;
+        font-size: 21px;
         border: none;
     }
+    
+    input[type="search"]::placeholder{
+        border: none;
+        font-size: 20px;
+    }
 
+    .col-6{
+        max-width: 100% !important;
+    }
 }
