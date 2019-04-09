@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
 }
 
 .heading{
@@ -112,9 +113,6 @@ body{
     background-color: white
 }
 
-.sales-nav{
-    
-}
 
 .sales-list-li{
     margin-right: 30px;
@@ -146,10 +144,7 @@ body{
 }
 
 .search-for{
-    border: 1px solid #aaa;
-    border-top: none;
-    border-bottom: none;
-    border-right: none;
+    border: none;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -158,12 +153,11 @@ body{
 
 input[type="search"]{
     padding: 20px 0px;
-    border-top: none;
-    border-bottom: none;
-    border-left: none;
+    border: none;
     outline: 0;
     font-size: 12px;
     font-family: 'Montserrat', sans-serif;
+    border-right: 1px solid #333;
 }
 
 input[type="search"]::placeholder{
@@ -194,4 +188,42 @@ input[type="search"]::placeholder{
     .nav-menu-ul{
         display: none !important;
     }
+
+    .sales-nav{
+        padding: 15px;
+    }
+
+    input[type="search"]{
+        padding: 10px;
+    }
+
+    .sales-list-a{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 380px){
+
+    .sales-part-child{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .support{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .search-for{
+        width: 100%;
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    input[type="search"]{
+        border: none;
+    }
+
 }
