@@ -166,6 +166,17 @@ input[type="search"]::placeholder{
     color: #333;
 }
 
+/* banner section */
+
+.banner{
+    width: 100%;
+    background-image: url("imgs/iphone-sale.png");
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
 /* media queries */
 
 @media only screen and (max-width: 991px){
