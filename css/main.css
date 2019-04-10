@@ -1,6 +1,5 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    overflow: hidden;
 }
 
 .heading{
@@ -180,8 +179,8 @@ input[type="search"]::placeholder{
 
 .banner-child{
     width: 85%;
+    height: 500px;
     display: flex;
-    align-items: space-around;
     margin-left: auto;
     margin-right: auto;
 }
@@ -245,7 +244,7 @@ input[type="search"]::placeholder{
     }
 }
 
-@media only screen and (max-width: 380px){
+@media only screen and (max-width: 390px){
 
     .sales-part-child{
         display: flex;
