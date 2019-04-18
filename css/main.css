@@ -205,8 +205,182 @@ input[type="search"]::placeholder{
     padding: 15px 50px;
     border: none;
     border-radius: 30px;
+    cursor: pointer;
 }
 
+.promo-button-child:hover{
+    color: #2754eb;
+    background-color: #e4e5e7;
+    transition: 200ms linear;
+    font-weight: 600;
+}
+
+
+/* main part */
+
+.main-part-parent{
+    width: 100%;
+    background-color: #e4e5e7;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-part-child{
+    width: 90%;
+}
+
+.sort-by{
+    background-color: white;
+}
+
+.sort-title, .sort-lists{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.sort-text{
+    font-family: 'Montserrat', sans-serif;
+    color: #999;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+}
+
+select {
+	background: white;
+	border: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: #3F3F3F;
+    width: 90px;
+
+	/* Here's the code we need */
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+}
+
+.select-wrapper {
+    position: relative;
+    width: 115px;
+    height: 20px
+}
+
+.select-wrapper:after {
+	font-family: 'FontAwesome';
+    content: url("/imgs/chevron-down-solid.svg");
+    font-size: 15px;
+    width: 10px;
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: #999;
+    pointer-events: none;
+    padding-top: 2px;
+    margin-right: 10px;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+
+#match *{
+    text-transform: uppercase;
+}
+
+.kword{
+    justify-content: space-between;
+}
+
+input[id="kword"]{
+    background-color: #f0f2f7;
+    border: 1px solid #e3e8f0;
+    border-radius: 20px;
+    height: 30px;
+    padding: 10px;
+    width: 160px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
+
+input[id="kword"]::placeholder{
+    font-size: 12px; 
+    font-family: 'Montserrat' sans-serif;
+    text-transform: uppercase;
+}
+
+input[id="kword"]:focus{
+    background-color: #c3cde9;
+    transition: 1.3s;
+}
+
+input[id="min"], input[id="max"]{
+    background-color: #f0f2f7;
+    border: 1px solid #e3e8f0;
+    border-radius: 20px;
+    height: 30px;
+    padding: 10px;
+    width: 65px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+input[id="min"]::placeholder, input[id="max"]::placeholder{
+    font-size: 12px; 
+    font-family: 'Montserrat' sans-serif;
+    text-transform: uppercase;
+}
+
+input[id="min"]:focus, input[id="max"]:focus{
+    background-color: #c3cde9;
+    transition: 1.3s;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 50%;
+}
+
+.filters{
+    background-color: aqua;
+}
+
+.products{
+    background-color: #2754eb;
+}
+
+input[type="number"]{
+    width: 70px;
+    outline: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.sort-lists *{
+    padding: 0 !important;
+}
 /* media queries */
 
 @media only screen and (max-width: 991px){
@@ -221,6 +395,10 @@ input[type="search"]::placeholder{
 
     .cart-icon, .sign-icon{
         font-size: 20px;
+    }
+
+    .main-part-parent{
+        width: 100%;
     }
 }
 
@@ -290,4 +468,5 @@ input[type="search"]::placeholder{
     .promo-title, .promo-desc, .promo-button{
         height: 33%;
     }
+
 }
