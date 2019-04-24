@@ -9,20 +9,41 @@
   <link rel="stylesheet" href="/css/bootstrap-grid.css">
   <link rel="stylesheet" href="/css/fonts.css">
   <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css">
+
+  <style>
+    .myChange{
+      background-color: yellowgreen !important;
+      width: 200px !important;
+      height: 100px !important;
+      display: block !important;
+    }
+
+
+    .rap{
+      background-color: pink;
+      width: 100px;
+      height: 160px;
+      display: block;
+    }
+
+  </style>
 </head>
 <body>
 
-  <div id="root"></div>
+  <button id="button">Click Me</button>
+
+  <div class="rap">lorem ipsum</div>
 
   <script>
-  ReactDOM.render(
-    <h1>Hello, world!</h1>,
-    document.getElementById('root')
-  );
+    var button = document.getElementById("button");
+    
+    
+
+    button.addEventListener("click", function myFu() {
+      var el = document.querySelector(".rap");
+      el.classList.toggle("myChange");
+    })
+
   </script>
-
-  <!-- Load our React component. -->
-  <script src="like_button.js"></script>
-
 </body>
 </html>
