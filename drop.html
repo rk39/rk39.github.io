@@ -6,44 +6,39 @@
   <title>Page Title</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/css/reset.css">
-  <link rel="stylesheet" href="/css/bootstrap-grid.css">
   <link rel="stylesheet" href="/css/fonts.css">
-  <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css">
-
-  <style>
-    .myChange{
-      background-color: yellowgreen !important;
-      width: 200px !important;
-      height: 100px !important;
-      display: block !important;
-    }
-
-
-    .rap{
-      background-color: pink;
-      width: 100px;
-      height: 160px;
-      display: block;
-    }
-
-  </style>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/drop.css">
 </head>
-<body>
-
-  <button id="button">Click Me</button>
-
-  <div class="rap">lorem ipsum</div>
+  <body>
+    
+    <div class="nav-menu">
+      <a class="bar6"><i class="bar1 fas fa-bars"></i></a> 
+      <ul class="nav-menu-ul ">
+          <li class="nav-menu-li">
+              <a href="javascript:void(0)" class="nav-menu-a">Home</a>
+          </li>
+          <li class="nav-menu-li">
+              <a href="javascript:void(0)" class="nav-menu-a">Devices</a>
+          </li>
+          <li class="nav-menu-li">
+              <a href="javascript:void(0)" class="nav-menu-a">Delivery & Payment</a>
+          </li>
+          <li class="nav-menu-li">
+              <a href="javascript:void(0)" class="nav-menu-a">Guarantee</a>
+          </li>
+          <li class="nav-menu-li">
+              <a href="javascript:void(0)" class="nav-menu-a">About Us</a>
+          </li>
+      </ul>
+  </div>
 
   <script>
-    var button = document.getElementById("button");
-    
-    
-
-    button.addEventListener("click", function myFu() {
-      var el = document.querySelector(".rap");
-      el.classList.toggle("myChange");
+    document.querySelector(".bar6").addEventListener("click", function(){
+      var meniu = document.querySelector(".nav-menu-ul");
+      meniu.classList.toggle("nav-menu-ul-replace");
     })
-
   </script>
-</body>
+
+  </body>
 </html>
